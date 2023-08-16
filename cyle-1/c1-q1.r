@@ -20,7 +20,7 @@ for (word in words_in_paragraph) {
   }
 }
 
-replaced_list = replaced_strings <- gsub(word_to_be_replaced, replacing_word, words_in_paragraph)
+replaced_strings <- gsub(word_to_be_replaced, replacing_word, words_in_paragraph)
 
 print(paste(replaced_list, collapse = " "))
 average_character_count = total_char / length(words_in_paragraph)
