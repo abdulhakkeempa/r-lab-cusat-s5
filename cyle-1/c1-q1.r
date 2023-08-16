@@ -22,7 +22,7 @@ for (word in words_in_paragraph) {
 
 replaced_strings <- gsub(word_to_be_replaced, replacing_word, words_in_paragraph)
 
-print(paste(replaced_list, collapse = " "))
+print(paste(replaced_strings, collapse = " "))
 average_character_count = total_char / length(words_in_paragraph)
 print(paste("The average word length is ", average_character_count))
 print(paste("The longest word is ", longest_word, " with length ", longest_word_length))
